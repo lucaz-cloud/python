@@ -1,0 +1,11 @@
+n=int(input("enter any number"))
+b=str(n)
+a=int(b[0])
+c=int(b[1])
+d=int(b[2])
+if (a+1==c and c+1==d):
+print("sequence is valid")
+elif (a-1==c and c-1==d):
+print("sequence is valid")
+else:
+print("sequence is invalid"
