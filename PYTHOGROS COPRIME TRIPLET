@@ -1,0 +1,17 @@
+def cop(a, b):
+return sarathi(a, b) == 1
+
+def sarathi(a, b):
+while b != 0:
+temp = a % b
+a = b
+b = temp
+return a
+
+n = int(input("Enter any number: "))
+
+for a in range(5, n):
+for b in range(4, a):
+for c in range(3, b):
+if cc + bb == a*a and cop(a, b) and cop(a, c) and cop(b, c):
+print(a, b, c)
