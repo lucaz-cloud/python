@@ -1,0 +1,12 @@
+legs=int(input("enter the legs"))
+heads=int(input("enter the heads"))
+f=0
+for i in range(heads+1):
+cows=i
+hens=heads-cows
+if ((cows4)+(hen2))==legs:
+print("cows=",cows)
+print("hens=",hens)
+f=1
+if f==0:
+print("no solution")
