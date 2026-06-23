@@ -1,7 +1,7 @@
 class Solution(object):
     def backtrack(self, nums, curr, res):
         if len(curr) == len(nums):
-            res.append(curr[:])
+            res.append(curr[:]) 
             return
 
         for i in nums:
